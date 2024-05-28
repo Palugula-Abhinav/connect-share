@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300&family=Open+Sans:wght@400;600&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding-top: 40px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    letter-spacing: 2px;
+    height: 80px;
+    padding: 0 8em;
+    gap: 14px;
+    margin: 0 1rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    border-bottom: 0.3px solid #6b6c6e;
+}
+
+.logo-div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg-logo {
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 1rem;
+    display: inline-block;
+    color: #e9e5e5;
+}
+
+#logo {
+    text-transform: uppercase;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+}
+
+#logo-light {
+    color: #6b6c6e;
+}
+
+header>ul {
+    list-style: none;
+    padding: none;
+    display: inline-flex;
+    gap: 2em;
+}
+
+header>ul>li>a {
+    text-decoration: none;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    color: #87888f;
+}
+
+header>ul>li>a:hover {
+    color: #03c988;
+}
+
+main {
+    padding: 20px 9em 0;
+    font-family: sans-serif;
+}
+
+
+.post-heading,
+#info-heading {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2px;
+    font-weight: 400;
+    font-weight: 600;
+}
+
+.post-short-description,
+#info-description {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 2px;
+}
+
+#info-heading:nth-of-type(1) {
+    margin-top: 0;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    box-sizing: border-box;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+.post-card:nth-of-type(1) {
+    border-top: 1px solid #000;
+}
+
+.profile-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+.writer-details {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 14px;
+    display: inline-flex;
+    width: 400px;
+    margin-bottom: 0;
+}
+
+.writer-details>p {
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: rgb(128, 128, 128);
+}
+
+.post-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #404040;
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+
+.post-description {
+    color: #808080;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
